@@ -1,0 +1,7 @@
+python-dotenv
+huggingface-hub
+markdownify
+smolagents
+requests
+duckduckgo-search
+pandas 

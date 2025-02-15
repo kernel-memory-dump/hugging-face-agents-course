@@ -1,3 +1,57 @@
+# Course Chapter 1
+
+This project organizes the code from the course into separate main files.
+
+## Setup
+
+1. Create a virtual environment:
+   python -m venv venv
+
+2. Activate the virtual environment:
+   - On Linux/macOS: source venv/bin/activate
+   - On Windows: .\venv\Scripts\activate
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+## Configuration
+
+- Update the .env file with your HuggingFace token:
+
+  HF_TOKEN=YOUR_HF_TOKEN_HERE
+
+## Running
+
+### Main Agent
+Run the main file:
+
+   python main.py
+
+### Gradio Tech-Priest Demo
+Experience the wisdom of the Omnissiah through our Gradio-powered Tech-Priest agent:
+
+1. Navigate to the gradio directory:
+   ```
+   cd gradio
+   ```
+
+2. Run the Gradio app:
+   ```
+   python app.py
+   ```
+
+The Tech-Priest agent provides:
+- Sacred code review and analysis
+- Divine insights from the Machine God
+- Legacy code pattern recognition
+- Ritualistic documentation assessment
+
+Features:
+- Interactive Gradio UI for code submission
+- Warhammer 40K themed responses
+- Advanced code analysis tools
+- Custom Tech-Priest personality
+
 # Chapter 1: Agent Fundamentals
 
 This chapter covers the fundamental concepts of AI agents, including Tools, Thoughts, Actions, and Observations.
@@ -51,7 +105,10 @@ chapter_1/
 ├── src/                 # Source code
 │   ├── tools/          # Custom tools implementation
 │   └── agent/          # Agent implementation
-└── notebooks/          # Jupyter notebooks for experiments
+├── notebooks/          # Jupyter notebooks for experiments
+└── gradio/             # Gradio Tech-Priest demo
+    ├── app.py          # Gradio application
+    └── README.md       # Tech-Priest documentation
 ```
 
 ## Resources
